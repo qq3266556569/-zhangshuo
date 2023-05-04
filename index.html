@@ -23,8 +23,13 @@
 		<script src="https://v1.hitokoto.cn/?encode=js&select=%23hitokoto" defer></script>
 			-->
         <hr class="hr">
-        <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation" id="nr">
+		<style> #nr{ font-size:20px; margin: 0; background: -webkit-linear-gradient(left, #ffffff, #ff0000 6.25%, #ff7d00 12.5%, 
+#ffff00 18.75%, #00ff00 25%, #00ffff 31.25%, #0000ff 37.5%, #ff00ff 43.75%, #ffff00 50%, #ff0000 56.25%, #ff7d00 62.5%, #ffff00 68.75%, 
+#00ff00 75%, #00ffff 81.25%, #0000ff 87.5%, #ff00ff 93.75%, #ffff00 100%); 
+-webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% 100%; animation: masked-animation 2s infinite linear; } @keyframes 
+masked-animation { 0% { background-position: 0 0; } 100% { background-position: -100%, 0; } } </style>
+        <nav class="cover-navigation cover-navigation--primary"  id="nr">
+            <ul class="navigation">
 			    <li class="navigation__item"><a href="https://www.aaym.net" target="_blank" title="AA源码网">AA源码网</a></li>
 				<li class="navigation__item"><a href="https://www.86dhw.com" target="_blank" title="86导航网">86导航网</a></li>
                 <li class="navigation__item"><a href="#" target="_blank" title="待添加">待添加</a></li>
@@ -39,11 +44,6 @@
 		<div class="nav01_fooder">Copyright © <a href="/" rel="nofollow" target="_blank" title="ICP备案号">阿夜</a></div>
 		</div>
 		<!--&nbsp;&nbsp;|&nbsp;&nbsp;  All Rights Reserved-->
-		    <style> #nr{ font-size:20px; margin: 0; background: -webkit-linear-gradient(left, #ffffff, #ff0000 6.25%, #ff7d00 12.5%, 
-#ffff00 18.75%, #00ff00 25%, #00ffff 31.25%, #0000ff 37.5%, #ff00ff 43.75%, #ffff00 50%, #ff0000 56.25%, #ff7d00 62.5%, #ffff00 68.75%, 
-#00ff00 75%, #00ffff 81.25%, #0000ff 87.5%, #ff00ff 93.75%, #ffff00 100%); 
--webkit-background-clip: text; -webkit-text-fill-color: transparent; background-size: 200% 100%; animation: masked-animation 2s infinite linear; } @keyframes 
-masked-animation { 0% { background-position: 0 0; } 100% { background-position: -100%, 0; } } </style>
     <div class="landscape"></div>
     <div class="filter"></div>
     <canvas id="canvas" width="1366" height="638"></canvas>
